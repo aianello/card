@@ -1,0 +1,236 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.outer {
+  width: 630px;
+  height: 880px;
+  border: 15px solid gold;
+  border-radius: 15px;
+}
+
+.base {
+  width: 630px;
+  height: 880px;
+  top: -15px;
+  left: 15px;
+  background-image: linear-gradient(to bottom right, #b75eaa, #eee0f4);
+}
+
+.pokeType {
+  position: absolute;
+  top: 45px;
+  left: 75px;
+  width: 300px;
+  font-size: small;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+}
+
+.pokeName {
+  position: absolute;
+  top: 60px;
+  left: 75px;
+  width: 400px;
+  height: 400px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+}
+
+.hpTag {
+  position: absolute;
+  top: 50px;
+  left: 410px;
+  font-size: xxx-large;
+  font-weight: bold;
+  font-familyL 'Gill Sans',
+  'Gill Sans MT',
+  Calibri,
+  sans-serif;
+  color: red;
+}
+
+.pokeAbraBorder {
+  position: absolute;
+  top: 100px;
+  left: 75px;
+  width: 500px;
+  height: 347px;
+  border: 10px solid gold;
+}
+
+.inner {
+  object-fit: fill;
+  width: 500px;
+  height: auto;
+}
+
+.pokePsychic {
+  position: absolute;
+  top: 45px;
+  left: 500px;
+  width: 50px;
+  height: auto;
+}
+
+.pokeImg {
+  top: -10px;
+  left: 10px;
+  width: 500px;
+  height: auto;
+}
+
+.info {
+  position: absolute;
+  top: 470px;
+  left: 98px;
+  width: 480px;
+ text-align: center;
+  height: 25px;
+  background-color: #ffd700;
+  font-style: italic;
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+}
+.BaseSet2Img {
+  position: absolute;
+  top: 0px;
+  left: 480px;
+  width: 55px;
+  height: auto;
+}
+.AttackAndDescription { /* THIS ONE IS NEW */
+  position: absolute;
+  height: 200px;
+  width: 605px;
+  top: 570px;
+  left: 35px;
+  border-bottom: 2px solid black;
+}
+.pokePsychic2 { /* Edited by Ricky */
+  position: absolute;
+  top: 30px;
+  left: 34px;
+  width: 40px;
+  height: 40px;
+}
+.attackName { /* Edited by Ricky */
+  position: absolute;
+  top: 0px;
+  left: 120px;
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+}
+
+.attackDesc { /* Edited by Ricky */
+  position: absolute;
+  top: 8px;
+  left: 300px;
+  width: 40%;
+  height: 25%;
+  font-size: x-large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+}
+.attackDesc2 { /* Edited by Ricky */
+  position: absolute;
+  top: 40px;
+  left: 120px;
+  width: 60%;
+  height: 25%;
+  font-size: x-large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+}
+.attackDesc3 { 
+  position: absolute;
+  top: 70px;
+  left: 120px;
+  width: 30%;
+  height: 25%;
+  font-size: x-large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+}
+.attackTotsl {
+  position: absolute;
+  top: 20px;
+  left: 510px;
+  font-size: xxx-large;
+  font-weight: normal;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+}
+.weakness { 
+  position: absolute;
+  top: 770px;
+  left: 60px;
+  width: 60%;
+  height: 25%;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+}
+.resistance { 
+  position: absolute;
+  top: 770px;
+  left: 310px;
+  width: 60%;
+  height: 25%;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+}
+.retreat { 
+  position: absolute;
+  top: 770px;
+  left: 520px;
+  width: 60%;
+  height: 25%;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+}
+.pokePsychic3 { 
+  position: absolute;
+  top: 795px;
+  left: 81px;
+  width: 30px;
+  height: 30px;
+}
+.level {
+  position: absolute;
+  top: 815px;
+  left: 60px;
+  width: 555px;
+  height: 12px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+  font-size: small;
+}
+.levelboarder {
+  position: absolute;
+  top: 830px;
+  left: 50px;
+  width: 560px;
+  height: 45px;
+  border: 4px solid gold;
+}
+.footerSide { 
+  position: absolute;
+  top: 0px;
+  left: 560px;
+  width: 400px;
+  height: 60px;
+  font-weight: bold;
+  /* 65/130 */
+}
+.footerSide2 {
+  position: absolute;
+  top: -10px;
+  left: 605px;
+  width: 400px;
+  height: 60px;
+  /* Big Dot, Bottom Right */
+}
+footer { 
+  position: absolute;
+  top: 865px;
+  left: 27px;
+  width: 600px;
+}
